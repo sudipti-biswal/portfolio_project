@@ -1,0 +1,28 @@
+.about {
+  padding: 6rem 0; }
+  .about .about-me-img {
+    height: 450px; }
+  .about h1 {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400; }
+    .about h1 span {
+      color: var(--primary); }
+  .about h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem; }
+  .about p {
+    font-family: 'lato',sans-serif;
+    color: var(--ternary);
+    line-height: 1.8; }
+  .about .social {
+    display: flex; }
+    .about .social a {
+      justify-content: center;
+      margin: 0.2rem; }
+      .about .social a img {
+        width: 35px;
+        height: 35px; }
+
+/*# sourceMappingURL=about.css.map */

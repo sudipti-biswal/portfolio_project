@@ -1,0 +1,42 @@
+
+@import'utility';
+@import'header';
+@import'contact';
+@import'about';
+@import'service';
+@import'blog';
+@import'freelencar';
+@import'footer';
+
+:root{
+	--primary:#3dcfd3;
+    --dark:#161616;
+    --pure:#ffffff;
+    --ternary:#898989;
+    --light:#f2f2f2;
+    --secondary:#070606;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing:border-box;
+}
+body{
+	font-weight: "poppin",sans-serif;
+}
+
+html{
+	scroll-behavior:smooth;
+}
+.container{
+	width: 1040px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+@import'media';
+
+
+
+
+ 

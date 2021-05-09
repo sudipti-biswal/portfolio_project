@@ -1,0 +1,70 @@
+
+.contact{
+	.card-wrapper{
+		display: grid;
+		grid-template-columns:repeat(3,1fr);
+		grid-gap:3rem;
+
+	.card{
+      text-align: center;
+      margin-bottom:3rem;
+     img{
+     	margin-bottom: 2rem;
+     }
+     h1{
+     	font-weight: 400;
+     	margin-bottom:0.5rem;
+     }
+     h6{
+     	color: var(--ternary);
+     	font-size: 0.9rem;
+
+     }
+	}
+	}
+
+	form {
+	.input-wrap{
+		display: grid;
+		grid-template-columns:repeat(2,1fr);
+		grid-gap:1rem;
+	input{
+		padding:1rem;
+		margin-bottom:0.5rem;
+		border:1px solid var(--light);
+		font-size: 0.9rem;
+	&:focus{
+			outline: none;
+		}	
+	}
+	}
+
+    .input-wrap-2{
+    	display: flex;
+    	flex-direction:column;
+   input{
+        
+        padding:1rem;
+		margin-bottom:0.5rem;
+		border:1px solid var(--light);
+		font-size: 0.9rem;
+	&:focus{
+			outline: none;
+		}	
+    	}
+    textarea{
+    	padding: 0.5rem;
+    	border:1px solid var(--light);
+    	font-size: 1.1rem;
+
+    &:focus{
+			outline: none;
+		}	
+    }
+    }
+    .btn-wrap{
+    	text-align: center;
+    	margin-bottom: 4rem;
+    }
+	}
+}

@@ -1,0 +1,162 @@
+@media (min-width:425px) {
+  .container {
+      width: 400px;
+      padding: 0 15px;
+      margin: 0 auto;
+   }
+}
+
+@media (min-width:768px) {
+     .container {
+      width: 768px;
+      padding: 0 15px;
+      margin: 0 auto;
+   }
+.justify-between{
+		justify-content:space-around;
+	}
+.hero{
+	padding: 2rem;
+}
+
+.hero .left img{
+	width:200px;
+}
+.hero .right{
+
+	h6{
+      font-size: 1.4rem;
+      margin-bottom: 0.7rem;
+	}
+	h1{
+		font-size: 2.2rem;
+		line-height: 3rem;
+		
+	}
+	p{
+		margin-bottom: 1.5rem;
+		margin-top: 1rem;	
+	}
+}
+
+.about{
+       padding: 3rem 2rem;
+   .about-me-img{
+	    height: 300px;
+    }
+}
+.service{
+	.container{
+		width: 693px;
+    .section-heading + p{
+    	margin-bottom:1rem;
+    }
+	.card-wrapper{
+		    grid-row-gap: 2rem;
+
+    .card{
+    	    padding: 5rem 2rem 2rem 2rem;
+    }
+	}
+	}
+}
+
+.freelencar {
+	margin-top: 2rem;
+    padding-top: 3rem;
+}
+.review{
+	.slider-outer{
+		    width: 70%;
+            margin: auto;
+	}
+}
+
+.work{
+	padding-bottom: 2rem;
+ .container{
+ 	width: 716px;
+     .section-heading{
+     	margin-bottom: 1.2rem;
+     }
+ 	 .section-heading + p{
+    	margin-bottom:1.5rem;
+    }
+ }
+.card-wrapper{
+
+	.card{
+		position: relative;
+		height: 200px;
+	}
+}
+}
+
+.blog{
+	padding-bottom: 10rem;
+	.container{
+		width: 716px;
+	}
+	.section-heading{
+		margin-bottom: 1.2rem;
+	}
+	.section-heading + p{
+		margin-bottom: 1.2rem;
+	}
+	.card-wrapper{
+		grid-gap:1.5rem;
+
+    .card{
+       height: 460px;
+
+    .card-content{
+    	padding-right: 1.2rem;
+    	padding-left: 1.2rem;
+    }
+    }
+	}
+}
+.contact .container{
+	width: 640px;
+}
+}
+
+
+@media (min-width:1024px) {
+	.container {
+      width:1000px;
+      padding: 0 35px;
+      margin: 0 auto;
+}
+	.justify-between{
+		justify-content:space-around;
+	}
+
+.service .card-wrapper {
+	    grid-column-gap: 2rem;
+}
+}
+
+
+@media (min-width:1440px) {
+	.container{
+		width: 1055px;
+	}
+    .hero {
+    width: 1024px;
+    margin: auto;
+    }
+	.service .container {
+        width: 1317px;
+    }
+    .work .container {
+        width: 1317px;
+        height: 100%;
+    }
+    .blog .container {
+       width: 1316px;
+      .card{
+      	height: 500px;
+      }
+}
+}

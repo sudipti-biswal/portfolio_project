@@ -1,0 +1,53 @@
+header{
+	background: var(--dark);
+	clip-path: polygon(0 0, 100% 0, 100% 100%,70% 87%,0 100%);
+	
+}
+header nav {
+	padding: 2rem 0;
+}
+header nav .brand{
+	margin-right: 1.6rem;
+}
+header nav .content a{
+	text-decoration: none;
+	color: var(--pure);
+	text-transform: uppercase; 
+	margin: 0 0.5rem ;
+	transition:all .3s ease;
+
+	&:hover{
+		color: var(--primary);
+	}
+}
+.hero{
+	padding: 3rem 0;
+}
+
+.hero .left img{
+	width:400px;
+}
+.hero .right{
+	color: var(--pure);
+	margin-top: -8rem;
+
+	h6{
+      color: var(--primary);
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+	}
+	h1{
+		font-size: 4rem;
+		font-weight: 100;
+		line-height: 4rem;
+		span{
+			color:var(--primary); 
+		}
+	}
+	p{
+		font-size: 0.9rem;
+		line-height: 1.5rem;
+		margin-bottom: 2rem;
+		margin-top: 1.5rem;	
+	}
+}

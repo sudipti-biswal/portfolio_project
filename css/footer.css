@@ -1,0 +1,22 @@
+footer {
+  background-color: var(--dark);
+  text-align: center;
+  padding: 5rem 0; }
+  footer img {
+    width: 150px; }
+  footer .footer-logo {
+    margin-bottom: 3rem; }
+  footer .footer-social {
+    margin-bottom: 2rem;
+    margin-right: -2rem; }
+    footer .footer-social a {
+      margin-right: 1rem; }
+      footer .footer-social a img {
+        width: 100%;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%; }
+  footer .copyright {
+    color: var(--ternary); }
+
+/*# sourceMappingURL=footer.css.map */
